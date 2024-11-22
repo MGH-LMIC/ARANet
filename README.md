@@ -34,7 +34,7 @@ A novel architecture comprising ARAM, FPN, and ASPP modules
 
 <div align="center">
   <a href="https://www.youtube.com/watch?v=5OP3OZFk1_c" target="_blank">
-    <img src="https://img.youtube.com/vi/YOUR_VIDEO_ID/maxresdefault.jpg" alt="ARANet Web Demo" width="700"/>
+    <img src="https://img.youtube.com/vi/5OP3OZFk1_c/maxresdefault.jpg" alt="ARANet Web Demo" width="700"/>
   </a>
 </div>
 
