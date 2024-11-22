@@ -1,0 +1,48 @@
+# Model configurations
+models:
+  # Currently active model
+  active_model: "SEFPN"  # Change this to switch models
+
+
+  # models scripts
+  ARANetFPN:
+    script_path: "models/aranetfpn_aspp2.py"
+    class_name: "ARANetFPN"
+    params:
+      num_classes: 3
+
+  NestedUNet:
+    script_path: "models/archs.py"
+    class_name: "NestedUNet"
+    params:
+      num_classes: 3
+
+  build_doubleunet:
+    script_path: "models/doubleunet.py"
+    class_name: "build_doubleunet"
+    params:
+      num_classes: 3
+
+  DeepLabWrapper:
+    script_path: "models/deeplab.py"
+    class_name: "DeepLabWrapper"
+    params:
+      num_classes: 3
+
+  build_resunetplusplus:
+    script_path: "models/resunetplusplus.py"
+    class_name: "build_resunetplusplus"
+    params: 
+      None
+
+  SEFPN:
+    script_path: "models/se_fpn.py"
+    class_name: "SEFPN"
+    params:
+      num_classes: 3
+
+
+# Data configuration
+data:
+  data_path: "data/"
+  
